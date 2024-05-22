@@ -1,24 +1,23 @@
 package com.example.ort.Controllers;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class UserController {
     @GetMapping("/home")
-    public String home() { return "page for everyone"; }
-
-    @GetMapping("/home/check")
-    public String home_check() { return "just for checking"; }
+    public String home() { return "everyone"; }
 
     @GetMapping("/user/home")
     public String user() {
-        return "page for users";
+        return "users_home";
     }
 
     @GetMapping("/admin/home")
     public String admin() {
-        return "page for admins";
+        return "admin_home";
     }
 
+    @GetMapping("/login")
+    public String login() { return "custom_login"; }
 }
