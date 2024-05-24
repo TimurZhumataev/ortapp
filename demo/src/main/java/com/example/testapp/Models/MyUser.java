@@ -1,9 +1,7 @@
-package com.example.ort.Models;
+package com.example.testapp.Models;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.sql.Date;
 
 @Data
 @Entity

@@ -1,7 +1,7 @@
-package com.example.ort.Controllers;
+package com.example.testapp.Controllers;
 
-import com.example.ort.Models.MyUser;
-import com.example.ort.Repositories.MyUserRepository;
+import com.example.testapp.Models.MyUser;
+import com.example.testapp.Repositories.MyUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;

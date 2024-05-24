@@ -1,7 +1,7 @@
-package com.example.ort.Services;
+package com.example.testapp.Services;
 
-import com.example.ort.Models.MyUser;
-import com.example.ort.Repositories.MyUserRepository;
+import com.example.testapp.Models.MyUser;
+import com.example.testapp.Repositories.MyUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
